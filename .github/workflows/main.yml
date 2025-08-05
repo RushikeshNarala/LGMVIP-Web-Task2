@@ -25,7 +25,7 @@ jobs:
         - name: push to docker hub 
           uses: docker/build-push-action@v3
           with: 
-           context: .
+           context: ./user-card
            push: true
            tags: rushikanna/user-card:latest 
      
