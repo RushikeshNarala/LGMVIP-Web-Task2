@@ -2,7 +2,7 @@ name : Continue Integration
 
 on :
    push :
-      branches : main 
+      branches : [ main ] 
 
 jobs:
    build:
